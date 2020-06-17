@@ -52,4 +52,5 @@ public class OkHttpConfig {
     public ConnectionPool pool(){
         return new ConnectionPool(maxIdleConnections, keepAliveDuration, TimeUnit.MINUTES);
     }
+
 }
