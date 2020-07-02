@@ -24,7 +24,7 @@ public class TestString {
         //indexOf() 返回指定字符的索引
         String str = "I am a good student";
         int a = str.indexOf("a");
-        System.out.println(a);
+        System.out.println(a);//a=2
 
 
     }
